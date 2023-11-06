@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../../fonts/baijamjuree-semibold-webfont.woff2') format('woff2'),
+    url('../../../fonts/baijamjuree-semibold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../../fonts/baijamjuree-regular-webfont.woff2') format('woff2'),
+    url('../../../fonts/baijamjuree-regular-webfont.woff') format('woff');
+}

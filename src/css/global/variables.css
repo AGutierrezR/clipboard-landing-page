@@ -1,0 +1,4 @@
+:root {
+  --gutter: 32px;
+  --wrapper-width: clamp(16rem, 100vw, 75rem);
+}
