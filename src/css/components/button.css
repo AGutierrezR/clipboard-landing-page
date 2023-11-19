@@ -1,0 +1,28 @@
+.cta {
+  --_cta-background-color: var(--cta-background-color, transparent);
+  --_cta-shadow: var(--cta-shadow, none);
+  --_cta-color: var(--cta-color, #fff);
+  --_cta-padding-block: var(--cta-padding-block, 14px);
+
+  padding: var(--_cta-padding-block) 30px;
+  border-radius: 5em;
+  border: none;
+  color: var(--_cta-color);
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.125rem;
+  transition: all 0.1s ease-in;
+  background-color: var(--_cta-background-color);
+  box-shadow: 0px -3px 0px inset var(--_cta-shadow);
+}
+
+.cta--primary {
+  --cta-background-color: var(--color-strong-cyan);
+  --cta-shadow: hsl(171, 66%, 34%);
+}
+
+.cta--secondary {
+  --cta-background-color: var(--color-light-blue);
+  --cta-shadow: hsl(233, 90%, 64%);
+}

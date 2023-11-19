@@ -1,0 +1,16 @@
+.sprite {
+  display: none;
+}
+
+.icon {
+  --_icon-width: var(--icon-width, auto);
+  --_icon-height: var(--icon-height, 3rem);
+
+  height: var(--_icon-height);
+  width: var(--_icon-width);
+}
+
+.icon--logo {
+  --icon-width: 125px;
+  --icon-height: 125px;
+}

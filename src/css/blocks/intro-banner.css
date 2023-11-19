@@ -1,0 +1,11 @@
+.intro-banner {
+  --region-space: var(--space-4xl) 76px;
+}
+
+.intro-banner {
+  letter-spacing: 0.12px;
+}
+
+.intro-banner .actions {
+  --threshold: 470px;
+}
