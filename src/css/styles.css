@@ -9,6 +9,7 @@
 @import './global/global-styles.css';
 
 @import './blocks/intro-banner.css';
+@import './blocks/snippets.css';
 
 @import './components/button.css';
 @import './components/icon.css';

@@ -7,6 +7,10 @@ Info about this implementation: https://piccalil.li/quick-tip/flow-utility/
   margin-top: var(--flow-space, 1em);
 }
 
+.flow-space-xl {
+  --flow-space: var(--space-xl);
+}
+
 .flow-space-s-2xs {
   --flow-space: var(--space-s-2xs);
 }

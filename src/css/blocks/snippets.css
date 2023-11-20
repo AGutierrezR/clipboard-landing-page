@@ -1,0 +1,30 @@
+.snippets {
+  --region-space: var(--space-3xl-2xl) 80px;
+}
+
+.snippets .auto-grid {
+  --gutter: 62px;
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 50vw, 20.05rem);
+}
+
+@media screen(md) {
+  .snippets .auto-grid > :first-child {
+    justify-self: end;
+  }
+
+  .snippets .auto-grid > :first-child img {
+    max-width: 70vw;
+  }
+}
+
+@media screen(lg) {
+  .snippets .auto-grid {
+    --gutter: 0;
+  }
+
+  .snippets__list {
+    padding-top: var(--space-zero-2xl);
+  }
+}
+
