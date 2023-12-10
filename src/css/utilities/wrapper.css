@@ -11,3 +11,8 @@
   padding-right: var(--gutter, 2rem);
   position: relative;
 }
+
+.wrapper[data-trim] {
+  padding-left: calc(var(--gutter, 2rem) / 2 );
+  padding-right: calc(var(--gutter, 2rem) / 2 );
+}
