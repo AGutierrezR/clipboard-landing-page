@@ -14,7 +14,6 @@ module.exports = {
   content: ['./*.html', './src/main.js'],
   theme: {
     colors,
-    spacing,
     fontSize,
     fontFamily,
     fontWeight: {
@@ -29,6 +28,9 @@ module.exports = {
       ...theme('spacing'),
     }),
     padding: ({ theme }) => theme('spacing'),
+    extend: {
+      spacing
+    }
   },
   plugins: [
     plugin(function ({ addComponents, config }) {
@@ -50,9 +52,19 @@ module.exports = {
           return
         }
 
-        Object.keys(group).forEach((key) => {
-          result += `--${prefix}-${key}: ${group[key]};`
-        })
+        if (key === 'spacing') {
+          Object.keys(group).forEach((key) => {
+            if (!(key in spacing)) {
+              return
+            }
+
+            result += `--${prefix}-${key}: ${group[key]};`
+          })
+        } else {
+          Object.keys(group).forEach((key) => {
+            result += `--${prefix}-${key}: ${group[key]};`
+          })
+        }
       })
 
       addComponents({
