@@ -1,0 +1,4 @@
+.actions.switcher {
+  --gutter: 1.25rem;
+  --threshold: 470px;
+}
