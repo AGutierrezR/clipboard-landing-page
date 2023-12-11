@@ -10,9 +10,13 @@
 
 @import './blocks/intro-banner.css';
 @import './blocks/snippets.css';
+@import './blocks/footer.css';
+
 @import './components/actions.css';
 @import './components/button.css';
 @import './components/icon.css';
+@import './components/navigation.css';
+@import './components/socials.css';
 @import './components/workflow.css';
 
 @import './compositions/cluster.css';

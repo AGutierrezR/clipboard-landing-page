@@ -27,3 +27,12 @@
   --icon-width: 3rem;
 }
 
+.icon--logo-footer {
+  --icon-width: 55px;
+  --icon-height: 55px;
+}
+
+.icon--social {
+  --icon-width: 1.5rem;
+  --icon-height: 1.5rem;
+}

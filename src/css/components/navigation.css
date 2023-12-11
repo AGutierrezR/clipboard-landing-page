@@ -1,0 +1,25 @@
+.navigation--footer { 
+  --gutter: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gutter);
+}
+
+@media screen(md) {
+  .navigation--footer {
+    flex-direction: row;
+  }
+}
+
+@media screen(lg) {
+  .navigation--footer {
+    --gutter: 12px 72px;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
