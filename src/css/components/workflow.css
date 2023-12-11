@@ -1,0 +1,19 @@
+.workflows-items {
+  --gutter: 3.125rem;
+}
+
+.workflows-items > .flow {
+  --flow-space: var(--space-4-6);
+}
+
+.workflows-items h3 {
+  --flow-space: 2.25rem;
+}
+
+@media screen(md) {
+  .workflows-items {
+    --gutter: 2rem;
+    max-width: 69.375rem;
+    margin-inline: auto;
+  }
+}

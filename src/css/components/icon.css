@@ -14,3 +14,16 @@
   --icon-width: 125px;
   --icon-height: 125px;
 }
+
+.icon--blacklist {
+  --icon-width: 3rem;
+}
+
+.icon--text {
+  --icon-width: 2.2rem;
+}
+
+.icon--preview {
+  --icon-width: 3rem;
+}
+

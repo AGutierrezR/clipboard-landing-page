@@ -13,6 +13,7 @@
 @import './components/actions.css';
 @import './components/button.css';
 @import './components/icon.css';
+@import './components/workflow.css';
 
 @import './compositions/cluster.css';
 @import './compositions/cover.css';
